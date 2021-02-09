@@ -1,3 +1,6 @@
+## New Features - Computer Plays & Restart Button
+![](https://i.imgur.com/88dkXNk.jpg)
+
 ## Background & Objectives
 
 Let's create a JavaScript game: the Wagon Race 🏎. It's a simple game where you use your keyboard to make a Wagon move forward. Each player will move their Wagon by tapping a key (e.g. `Q` for player one, `P` for player two)
