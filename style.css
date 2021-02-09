@@ -1,0 +1,59 @@
+/* Your board style here */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.race-table td {
+  height: 120px;
+  width: 120px;
+}
+
+.race-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#player1 td.active {
+  background-image: url("images/player_1.png");
+  background-position: center;
+}
+
+#player2 td.active {
+  background-image: url("images/player_2.png");
+  background-position: center;
+}
+
+.square {
+  border: 1px solid lightgrey;
+}
+
+.finish {
+  background-image: url("images/finish.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.end-player-1 {
+  position: relative;
+  background-image: url(images/player_1.png), url(images/finish.png);
+  background-position: center, center;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+.end-player-2 {
+  position: relative;
+  background-image: url(images/player_2.png), url(images/finish.png);
+  background-position: center, center;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+a {
+    margin: 15px;
+    padding: 15px;
+}
